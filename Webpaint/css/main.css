@@ -1,0 +1,260 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.clear {
+	clear: both;
+}
+
+/* ----- header ----- */
+
+.top_header {
+	background: #262626;
+	height: 100px;
+}
+
+.logo {
+	padding-top: 35px;
+	float: left;
+}
+
+.top_menu {
+	float: right;
+}
+
+.top_menu ul li {
+	display: inline-block;
+	margin-left: 50px;
+	padding-top: 22px;
+}
+
+.top_menu ul li a {
+	font-family: "Lato-Black";
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #d9d9d9;
+}
+
+.top_menu ul li .home {
+	color: #ff6760;
+}
+
+.top_menu ul li a:hover {
+	color: #ff6760;
+}
+
+.main_mnu_button {
+	background: transparent;
+	border: none;
+	float: right;
+	margin: 34px 10px 0px;
+}
+
+.fa-bars {
+	font-size: 32px;
+	color: #d9d9d9;
+}
+
+.bottom_header {
+	background: #2a2a2a;
+	height: 400px;
+}
+
+button {
+	border: none;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 100;
+	color: #d9d9d9;
+	margin-top: 55px;
+	margin-bottom: 20px;
+}
+
+h1 span {
+	font-family: "Lato-Black";
+	color: #d9d9d9;
+}
+
+h2 {
+	font-family: "Lato-LightItalic";
+	font-size: 40px;
+	color: #d9d9d9;
+	text-align: center;
+	font-weight: 100;
+	margin: 0 10px;
+	letter-spacing: 1px;
+}
+
+.see {
+	background: #ff6760;
+	border-radius: 6px;
+	color: white;
+	font-family: "Lato-Black";
+	padding: 16px 40px;
+	text-transform: uppercase;
+	font-size: 14px;
+	position: relative;
+	top: 45px;
+}
+
+.block_1 {
+	text-align: center;
+}
+
+/* ---- конец header ---- */
+
+.servicec {
+	background: #f8f8f8;
+	padding: 90px 0 85px;
+}
+
+.center {
+	text-align: center;
+}
+
+.servicec h3{
+	text-align: center;
+	color: #616161;
+}
+
+.servicec p {
+	text-align: center;
+	color: #616161;
+	font-size: 15px;
+}
+
+.tristiquet {
+	position: relative;
+	bottom: 4px;
+}
+
+.elitUltricies {
+	position: relative;
+	bottom: 6px;
+}
+
+.portfolio h2 {
+	font-family: "Lato-Black";
+	font-size: 30px;
+	text-align: center;
+	color: #616161;
+	padding-top: 55px;
+}
+
+.portfolio h3 { 
+	font-size: 20px;
+	font-family: "Lato-Ligth";
+	text-align: center;
+	color: #929292;
+	margin-top: 10px;
+	margin-bottom: 53px;
+}
+
+.portfolio img {
+	padding-bottom: 15px;
+}
+
+.buttons {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.buttons a {
+	background: #ff6760;
+	color: #fff;
+	padding: 9px 22px;
+	border-radius: 4px;
+	margin-left: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Lato-Black";
+}
+
+footer {
+	background: #313131;
+}
+
+footer h2 {
+	color: #e0e0e0;
+	text-align: center;
+	font-family: "Lato-Black";
+	font-size: 30px;
+	margin-top: 60px;
+}
+
+footer h3 {
+	color: #a2a2a2;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Lato-Ligth"; 
+}
+
+footer span {
+	color: #bebebe;
+	font-size: 14px;
+	font-family: "Lato-Regular";
+}
+
+footer .street img, footer .phone img {
+	padding-right: 5px;
+}
+
+.contact {
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 75px;
+}
+
+.contact a {
+	margin-left: 3px;
+}
+
+.footer_bottom h4 {
+	background: #2c2c2c;
+	color: #bebebe;
+	text-align: center;
+	margin: 0;
+	font-family: "Lato-Regular";
+	padding: 30px 0;
+	font-size: 14px;
+}
+
+.street {
+	text-align: right;
+	position: relative;
+	left: 77px;
+}
+
+.phone {
+	margin-left: 90px;
+}
+

@@ -1,0 +1,30 @@
+.shedule .first, .group_1 .first {
+	width: 70%;
+	float: left;
+}
+
+.shedule .last, .group_1 .last {
+	width: 30%;
+	float: right;
+}
+
+.group_1 button {
+	background: #5ebce4;
+}
+
+.group_1 .btn_information {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.search .button {
+	background: url("../images/18.png") no-repeat;
+	border: none;
+	position: relative;
+	top: -3px;
+	left: 10px;
+	width: 9px;
+	height: 7px;
+}
+
+

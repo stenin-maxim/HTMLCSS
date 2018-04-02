@@ -1,0 +1,46 @@
+
+/* font-family: "RobotoCondensedBold"; */
+@font-face {
+	font-family: "RobotoCondensedBold";
+	src: url("../fonts/RobotoCondensedBold/RobotoCondensedBold.eot");
+	src: url("../fonts/RobotoCondensedBold/RobotoCondensedBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoCondensedBold/RobotoCondensedBold.woff") format("woff"),
+	url("../fonts/RobotoCondensedBold/RobotoCondensedBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Tahoma-Regular";
+	src: url("../fonts/Tahoma-Regular.eot");
+	src: url("../fonts/Tahoma-Regular.eot?#iefix")format("embedded-opentype"),	
+	url("../fonts/Tahoma-Regular.ttf")format("truetype");
+}
+
+@font-face {
+	font-family: "Tahoma-Bold";	
+	src: url("../fonts/Tahoma-Bold.eot");
+	src: url("../fonts/Tahoma-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Tahoma-Bold.ttf")format("truetype");
+}
+
+@font-face {
+	font-family: "Arial-Bold";
+	src: url("../fonts/Arial-Bold.eot");	
+	src: url("../fonts/Arial-Bold.eot?#iefix")format("embedded-opentype"), 
+	url("../fonts/Arial-Bold.ttf")format("truetype");
+}
+
+@font-face {
+	font-family: "Arial-Regular";	
+	src: url("../fonts/Arial-Regular.eot");	
+	src: url("../fonts/Arial-Regualr.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Arial-Regular.ttf")format("truetype");
+}
+
+@font-face {
+	font-family: "Trebuchet-MS-Regular";
+	src: url("../fonts/Trebuchet-MS-Regular_.eot");	
+	src: url("../fonts/Trebuchet-MS-Regular_.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Trebuchet-MS-Regular_.ttf")format("truetype");	
+}
